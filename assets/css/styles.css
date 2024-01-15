@@ -618,7 +618,6 @@ a {
 
 .footer .social-link {
     padding: 16px 16px;
-    margin-left: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -627,12 +626,12 @@ a {
     border-radius: 3px;
 }
 
-.footer .social-link:first-child {
-    margin-left: 0;
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
-    background-color: #eee8e8;
+    background-color: #f9f9f9;
 }
 
 .footer .row-bottom {
